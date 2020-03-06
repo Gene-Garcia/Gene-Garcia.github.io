@@ -8,6 +8,9 @@ p, a {
 }
 
 #main-content {
+
+    min-width: 420px;
+
 }
 
 .display-1 {
@@ -28,4 +31,9 @@ p, a {
 
 p, .card-text {
     color: #721b65;
+}
+
+#img-github {
+    height: 40px;
+    width: 40px;
 }
