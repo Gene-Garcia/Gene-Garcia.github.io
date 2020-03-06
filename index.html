@@ -11,75 +11,72 @@
 
 </head>
 <body>
-    
-    <!-- Start Scripts -->
+  <!-- Start Scripts -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <!-- End Scripts -->
+  <!-- End Scripts -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container p-5 mb-5 shadow rounded" style="background-color: #6e5773;">
+    <h2 class="display-1 text-white">Welcome!</h2>
 
-        <!-- <a class="navbar-brand" href="#"></a> -->
+    <p></p>
+  </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <!-- Main Content -->
+  <div class="container shadow p-5 bg-white rounded" id="main-content">
 
-          <ul class="navbar-nav mr-auto">
+    <div class="shadow-sm p-5 mb-5 bg-white rounded" id="introduction">
+      <h3 class="display-4">Hi, my name is Gene Garcia.</h3>
 
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            
-          </ul>
-        </div>
-
-      </nav>
-
-    <div class="jumbotron"> 
-
-        <div class="container">
-
-            <h2 class="display-1">Welcome!</h2>
-
-        </div>
-
+      <p>Nulla ut lacinia purus. Aliquam ultricies risus in nunc malesuada finibus. Donec quis dolor sed lectus ullamcorper posuere. Sed ut blandit metus, ac cursus lorem. Morbi enim metus, ultricies non sapien eget, tempor consectetur turpis. Quisque ut sem eu magna imperdiet laoreet at vitae odio. Donec fermentum placerat accumsan. Pellentesque vulputate metus quis congue ullamcorper. Etiam in ante ipsum. Vivamus ac ipsum in mauris maximus egestas.</p>
     </div>
 
-    <div class="container">
+    <div class="shadow-sm p-5 mb-5 bg-white rounded">
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs mb-4">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#mini-projects">Mini Projects</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+
+        <div class="tab-pane container active" id="projects">
+          <p>Suspendisse potenti. Curabitur non tincidunt tortor. Duis nisi mi, eleifend nec egestas et, luctus vel lorem. Nulla gravida mauris a augue hendrerit, sit amet maximus neque suscipit. Curabitur laoreet, nunc eget laoreet vehicula, lectus risus eleifend sem, at mattis metus lectus et ante. Ut ut enim venenatis tortor dapibus vulputate nec ut lacus. Nam at nisl euismod, aliquam magna id, vehicula lorem. Morbi tempus malesuada libero.</p>
         
-        <div class="row">
+          <div class="card">
+            <div class="card-body">
 
-            <div class="col-md-8" id="introduction">
+              <h4 class="card-title">TutoQuizzer</h4>
+              
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"><small class="text-muted">-February 20, 2020</small></p>
 
-                <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Hi, my is Gene Garcia!</h5>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ex sapien, tristique vitae ex nec, pharetra dignissim ex. Donec vel fermentum turpis, nec convallis magna. Etiam mattis turpis vitae lacinia elementum. Curabitur vel felis mauris. Sed dignissim nunc quis dictum egestas. Nam at tristique nunc, vitae luctus metus. Fusce ex turpis, pulvinar vitae volutpat eu, fringilla at ipsum. Ut at ligula tincidunt, pellentesque lorem sed, ornare lorem. Quisque quis diam congue, rutrum nulla in, efficitur diam. Aenean et molestie ligula, feugiat aliquet ligula. Nulla malesuada leo eu egestas convallis. Morbi iaculis mauris laoreet rhoncus tristique. Vestibulum auctor aliquam justo, nec porta sem laoreet a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus interdum mauris nisi, ac maximus metus congue in. Quisque ullamcorper, mauris vitae malesuada pulvinar, justo nisl porta lectus, eget vulputate est ligula vel ipsum.
-                      </p>
-
-                      <a href="#" class="card-link">Facebook</a>
-                      <a href="#" class="card-link">Twitter</a>
-                    </div>
-                  </div>
+              <a href="#" class="card-link">Github</a>
 
             </div>
+          </div>
 
-            <div class="col-md-4" id="">
-                
-                
-
-            </div>
-            
         </div>
 
+        <div class="tab-pane container fade" id="mini-projects">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus nisl id ex ultrices, eu semper turpis porta. Integer euismod rhoncus justo, quis viverra felis ullamcorper eget. Aliquam accumsan ipsum in dui tincidunt, sit amet feugiat felis blandit. Nam ac dapibus urna. Sed pretium quis nisi in tempor. Donec porttitor fermentum metus, nec mattis est pharetra vitae. Vivamus fermentum velit nec placerat bibendum. Suspendisse potenti.</p>
+        </div>
+
+      </div>
+
     </div>
+
+  </div>
 
 </body>
 </html>

@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+p, a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2;
+}
+
+#main-content {
+}
+
+.display-1 {
+    font-size: 50px;
+}
+
+.display-4 {
+    font-size: 25px;
+    color: #6e5773;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 25px;
+    color: #6e5773;
+    font-weight: 600;
+}
+
+p, .card-text {
+    color: #721b65;
+}
