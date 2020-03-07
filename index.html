@@ -26,76 +26,269 @@
   </div>
 
   <!-- Main Content -->
-  <div class="container shadow p-5 bg-white rounded" id="main-content">
+  <div class="container shadow bg-white rounded" id="main-content">
 
-    <div class="shadow-sm p-5 mb-5 bg-white rounded" id="introduction">
-      <h3 class="display-4 text-right">Hi, my name is Gene Garcia.</h3>
+    <!-- Introduction -->
+    <div class=" p-5 mb-5 bg-white border-bottom rounded" id="introduction">
+      <h3 class="display-4 mb-4 text-right">Hi, my name is Gene Garcia.</h3>
       <p>Nulla ut lacinia purus. Aliquam ultricies risus in nunc malesuada finibus. Donec quis dolor sed lectus ullamcorper posuere. Sed ut blandit metus, ac cursus lorem. Morbi enim metus, ultricies non sapien eget, tempor consectetur turpis. Quisque ut sem eu magna imperdiet laoreet at vitae odio. Donec fermentum placerat accumsan. Pellentesque vulputate metus quis congue ullamcorper. Etiam in ante ipsum. Vivamus ac ipsum in mauris maximus egestas.</p>
     </div>
 
     <!-- Personal Projects -->
-    <div class="shadow-sm p-5 mb-5 bg-white rounded">
-      <h3 class="display-4 mb-2 text-right">Personal Projects</h3>
+    <div class="p-5 mb-5 bg-white border-bottom border-top rounded">
+      <h3 class="display-4 mb-4 text-right">Personal Projects</h3>
 
       <!-- Nav tabs -->
       <ul class="nav nav-tabs mb-4">
         <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#projects">Projects</a>
+          <a class="nav-link active" data-toggle="tab" href="#TutoQuizzer">TutoQuizzer</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#mini-projects">Mini Projects</a>
+          <a class="nav-link" data-toggle="tab" href="#Flores-De-Mayo-Information-System">Flores De Mayo Information System</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#MCL-Scholar-Website">MCL Scholar Website</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Who-Wants-to-be-A-Millionaire">Who Wants to be A Millionaire</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Ticky-Tacky-Tow">Ticky Tacky Toe</a>
         </li>
       </ul>
 
       <!-- Tab panes -->
       <div class="tab-content">
+        
+        <!-- TutoQuizzer -->
+        <div class="tab-pane container active" id="TutoQuizzer">
 
-        <div class="tab-pane container active" id="projects">
-          <p>Suspendisse potenti. Curabitur non tincidunt tortor. Duis nisi mi, eleifend nec egestas et, luctus vel lorem. Nulla gravida mauris a augue hendrerit, sit amet maximus neque suscipit. Curabitur laoreet, nunc eget laoreet vehicula, lectus risus eleifend sem, at mattis metus lectus et ante. Ut ut enim venenatis tortor dapibus vulputate nec ut lacus. Nam at nisl euismod, aliquam magna id, vehicula lorem. Morbi tempus malesuada libero.</p>
-          
-          <div class="card-columns">
-
-            <!-- TutoQuizzer -->
-            <div class="card">
-              <div class="card-body">
-
-                <h4 class="card-title">TutoQuizzer</h4>
-                
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="card-text"><small class="text-muted">-February 20, 2020</small></p>
-
-                <a href="https://github.com/gn-grc/TutoQuizzer" class="card-link" target="_blank">
-                  <img src="resources/images/GitHub-Mark-64px.png" id="img-github"/>
-                </a>
-
-              </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="text-center">Suspendisse potenti. Curabitur non tincidunt tortor. Duis nisi mi, eleifend nec egestas et, luctus vel lorem. Nulla gravida mauris a augue hendrerit, sit amet maximus neque suscipit. Curabitur laoreet, nunc eget laoreet vehicula, lectus risus eleifend sem, at mattis metus lectus et ante. Ut ut enim venenatis tortor dapibus vulputate nec ut lacus. Nam at nisl euismod, aliquam magna id, vehicula lorem. Morbi tempus malesuada libero.</p>
             </div>
 
-            <!-- Flores De Mayo Information System -->
-            <div class="card">
-              <div class="card-body">
+            <div class="col-lg-6">
+              <div id="tutoquizzer-img-indicators" class="carousel slide" data-ride="carousel">
 
-                <h4 class="card-title">Flores De Mayo Information System</h4>
+                <ol class="carousel-indicators">
+                  <li data-target="#tutoquizzer-img-indicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#tutoquizzer-img-indicators" data-slide-to="1"></li>
+                </ol>
                 
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="card-text"><small class="text-muted">-February 20, 2020</small></p>
-
-                <a href="https://github.com/gn-grc/Flores-De-Mayo-IS" class="card-link" target="_blank">
-                  <img src="resources/images/GitHub-Mark-64px.png" id="img-github"/>
+                <div class="carousel-inner">
+                
+                  <div class="carousel-item active">
+                    <img class="d-block mx-auto w-50 h-50" src="resources/images/projects/TutoQuizzer-1.jpg" alt="First slide">
+                  </div>
+                
+                  <div class="carousel-item">
+                    <img class="d-block mx-auto w-50 h-50" src="resources/images/projects/TutoQuizzer-1.jpg" alt="Second Slide">
+                  </div>
+                
+                </div>
+                
+                <a class="carousel-control-prev" href="#tutoquizzer-img-indicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
                 </a>
-
-              </div>
+                
+                <a class="carousel-control-next" href="#tutoquizzer-img-indicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                
+                </div>
             </div>
-
           </div>
 
         </div>
 
-        <div class="tab-pane container fade" id="mini-projects">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus nisl id ex ultrices, eu semper turpis porta. Integer euismod rhoncus justo, quis viverra felis ullamcorper eget. Aliquam accumsan ipsum in dui tincidunt, sit amet feugiat felis blandit. Nam ac dapibus urna. Sed pretium quis nisi in tempor. Donec porttitor fermentum metus, nec mattis est pharetra vitae. Vivamus fermentum velit nec placerat bibendum. Suspendisse potenti.</p>
+        <!-- Flores De Mayo Information System-->
+        <div class="tab-pane container fade" id="Flores-De-Mayo-Information-System">
+
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="text-center">Suspendisse potenti. Curabitur non tincidunt tortor. Duis nisi mi, eleifend nec egestas et, luctus vel lorem. Nulla gravida mauris a augue hendrerit, sit amet maximus neque suscipit. Curabitur laoreet, nunc eget laoreet vehicula, lectus risus eleifend sem, at mattis metus lectus et ante. Ut ut enim venenatis tortor dapibus vulputate nec ut lacus. Nam at nisl euismod, aliquam magna id, vehicula lorem. Morbi tempus malesuada libero.</p>
+            </div>
+
+            <div class="col-lg-6">
+              <div id="flores-de-mayo-is-img-indicators" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                  <li data-target="#flores-de-mayo-is-img-indicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#flores-de-mayo-is-img-indicators" data-slide-to="1"></li>
+                  <li data-target="#flores-de-mayo-is-img-indicators" data-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                
+                  <div class="carousel-item active">
+                    <img class="d-block mx-auto w-100 h-100" src="resources/images/projects/Flores-De-Mayo_IS-1.PNG" alt="First slide">
+                  </div>
+                
+                  <div class="carousel-item">
+                    <img class="d-block mx-auto w-100 h-100" src="resources/images/projects/Flores-De-Mayo_IS-2.PNG" alt="Second slide">
+                  </div>
+
+                  <div class="carousel-item ">
+                    <img class="d-block mx-auto w-100 h-100" src="resources/images/projects/Flores-De-Mayo_IS-3.PNG" alt="Third slide">
+                  </div>
+                
+                </div>
+                
+                <a class="carousel-control-prev" href="#flores-de-mayo-is-img-indicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                
+                <a class="carousel-control-next" href="#flores-de-mayo-is-img-indicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                
+                </div>
+            </div>
+          </div>
+
         </div>
 
+        <!-- MCL Scholar Website -->
+        <div class="tab-pane container fade" id="MCL-Scholar-Website">
+
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="text-center">Suspendisse potenti. Curabitur non tincidunt tortor. Duis nisi mi, eleifend nec egestas et, luctus vel lorem. Nulla gravida mauris a augue hendrerit, sit amet maximus neque suscipit. Curabitur laoreet, nunc eget laoreet vehicula, lectus risus eleifend sem, at mattis metus lectus et ante. Ut ut enim venenatis tortor dapibus vulputate nec ut lacus. Nam at nisl euismod, aliquam magna id, vehicula lorem. Morbi tempus malesuada libero.</p>
+            </div>
+
+            <div class="col-lg-6">
+              <div id="mcl-scholar-img-indicators" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                  <li data-target="#mcl-scholar-img-indicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#mcl-scholar-img-indicators" data-slide-to="1"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                
+                  <div class="carousel-item active">
+                    <img class="d-block mx-auto w-100 h-100" src="resources/images/projects/MCL-Scholar-Website-1.PNG" alt="First slide">
+                  </div>
+                
+                  <div class="carousel-item">
+                    <img class="d-block mx-auto w-100 h-100" src="resources/images/projects/MCL-Scholar-Website-2.PNG" alt="Second Slide">
+                  </div>
+                
+                </div>
+                
+                <a class="carousel-control-prev" href="#mcl-scholar-img-indicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                
+                <a class="carousel-control-next" href="#mcl-scholar-img-indicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Who Wants to be A Millionaire -->
+        <div class="tab-pane container fade" id="Who-Wants-to-be-A-Millionaire">
+
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="text-center">Suspendisse potenti. Curabitur non tincidunt tortor. Duis nisi mi, eleifend nec egestas et, luctus vel lorem. Nulla gravida mauris a augue hendrerit, sit amet maximus neque suscipit. Curabitur laoreet, nunc eget laoreet vehicula, lectus risus eleifend sem, at mattis metus lectus et ante. Ut ut enim venenatis tortor dapibus vulputate nec ut lacus. Nam at nisl euismod, aliquam magna id, vehicula lorem. Morbi tempus malesuada libero.</p>
+            </div>
+
+            <div class="col-lg-6">
+              <div id="who-wants-to-be-a-millionaire-img-indicators" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                  <li data-target="#who-wants-to-be-a-millionaire-img-indicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#who-wants-to-be-a-millionaire-img-indicators" data-slide-to="1"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                
+                  <div class="carousel-item active">
+                    <img class="d-block mx-auto w-100 h-100" src="resources/images/projects/" alt="First slide">
+                  </div>
+                
+                  <div class="carousel-item">
+                    <img class="d-block mx-auto w-100 h-100" src="resources/images/projects/" alt="Second Slide">
+                  </div>
+                
+                </div>
+                
+                <a class="carousel-control-prev" href="#who-wants-to-be-a-millionaire-img-indicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                
+                <a class="carousel-control-next" href="#who-wants-to-be-a-millionaire-img-indicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Ticky Tacky Tow -->
+        <div class="tab-pane container fade" id="Ticky-Tacky-Tow">
+
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="text-center">Suspendisse potenti. Curabitur non tincidunt tortor. Duis nisi mi, eleifend nec egestas et, luctus vel lorem. Nulla gravida mauris a augue hendrerit, sit amet maximus neque suscipit. Curabitur laoreet, nunc eget laoreet vehicula, lectus risus eleifend sem, at mattis metus lectus et ante. Ut ut enim venenatis tortor dapibus vulputate nec ut lacus. Nam at nisl euismod, aliquam magna id, vehicula lorem. Morbi tempus malesuada libero.</p>
+            </div>
+
+            <div class="col-lg-6">
+              <div id="ticky-tacky-tow-img-indicators" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                  <li data-target="#ticky-tacky-tow-img-indicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#ticky-tacky-tow-img-indicators" data-slide-to="1"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                
+                  <div class="carousel-item active">
+                    <img class="d-block mx-auto w-50 h-50" src="resources/images/projects/Ticky-Tacky-Toe-1.PNG" alt="First slide">
+                  </div>
+                
+                  <div class="carousel-item">
+                    <img class="d-block mx-auto w-50 h-50" src="resources/images/projects/Ticky-Tacky-Toe-2.PNG" alt="Second Slide">
+                  </div>
+                
+                </div>
+                
+                <a class="carousel-control-prev" href="#ticky-tacky-tow-img-indicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                
+                <a class="carousel-control-next" href="#ticky-tacky-tow-img-indicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                
+                </div>
+            </div>
+          </div>
+
+        </div>
+        
       </div>
 
     </div>
