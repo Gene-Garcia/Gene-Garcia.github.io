@@ -37,3 +37,7 @@ p, .card-text {
     height: 40px;
     width: 40px;
 }
+
+.nav-link, .nav-link:hover {
+    color:#721b65;
+}
