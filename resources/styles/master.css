@@ -38,6 +38,10 @@ p, .card-text {
     width: 40px;
 }
 
-.nav-link, .nav-link:hover {
+.nav-link, .nav-link:hover, .nav-link:after {
     color:#721b65;
+}
+
+.carousel-caption p {
+    color: white;
 }
