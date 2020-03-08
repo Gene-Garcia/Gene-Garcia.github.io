@@ -45,3 +45,11 @@ p, .card-text {
 .carousel-caption p {
     color: white;
 }
+#footer-emails p, #socials {
+    color: #e9e1cc;
+    font-size: 18px;
+}
+
+#footer-socials a:hover {
+    background-color: #352937;
+}
