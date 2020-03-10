@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gene Garcia Version 2.0</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="resources/styles/button-animations.css">
 
     <style>
         .div-heading {
@@ -59,6 +60,22 @@
 
         #programming-languages-parent {
             align-items: center;
+        }
+
+        #accordion .card-body {
+            padding: 90px 80px 90px 80px;
+            line-height: 35px;
+            background-color: #f4eeff;
+        }
+
+        #accordion .card-header .card-link {
+            color: #481380;
+            letter-spacing: 2px;
+            font-size: 17px;
+        }
+
+        .card-header {
+            background-color: #dcd6f7;
         }
     </style>
 
@@ -145,6 +162,53 @@
             <h4 class="div-heading ">Personal Projects</h4>
 
             <p class="div-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non magna tellus. Donec imperdiet elit felis, vitae viverra felis tempus eget. Donec pellentesque tristique commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum dapibus sed massa sit amet congue. Nullam posuere metus id neque molestie efficitur. Nam quis augue eu velit laoreet rutrum. Fusce leo dolor, aliquet nec commodo vitae, condimentum ac ipsum. Quisque sed felis pellentesque, feugiat tortor ut, aliquam ex. Sed facilisis euismod neque. Proin vestibulum quis dui ac tincidunt.</p>
+        
+            <!-- Accordion -->
+            <div id="accordion">
+
+                <!-- 1st -->
+                <div class="card border-0 rounded shadow mb-3">
+                  <div class="card-header text-center p-4">
+                    <a class="card-link" data-toggle="collapse" href="#scholar-web-collapse">
+                      MCL Scholar Website
+                    </a>
+                  </div>
+                  <div id="scholar-web-collapse" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2nd -->
+                <div class="card border-0 rounded shadow mb-3">
+                  <div class="card-header text-center p-4">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#floresdemayo-is-collapse">
+                    Flores De Mayo Information System
+                  </a>
+                  </div>
+                  <div id="floresdemayo-is-collapse" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3rd -->
+                <div class="card border-0 rounded shadow mb-3">
+                  <div class="card-header text-center p-4">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#tutoquizzer-collapse">
+                      TutoQuizzer
+                    </a>
+                  </div>
+                  <div id="tutoquizzer-collapse" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+
+            </div>
         </div>
         
     </div>
