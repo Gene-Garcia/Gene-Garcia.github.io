@@ -48,6 +48,14 @@ img::selection {
   color: #fafafa;
 }
 
+#web-divider .badge {
+  color: #364f6b;
+}
+
 #mobile-divider {
   color: black;
+}
+
+#mobile-divider .badge {
+  color: #eae7d9;
 }
