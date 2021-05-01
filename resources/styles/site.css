@@ -1,5 +1,9 @@
 body{
-    
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: inherit;
 }
 
 .s-curved{
@@ -17,6 +21,7 @@ body{
 
 #nav-div{
     min-width: 550px;
+    margin-right: 0;
 }
 
 .division-title{
@@ -30,58 +35,50 @@ body{
     transition: 1s;
 }
 
+.movement-transition{
+    animation: 5s;
+}
+
 
 #introduction-div{
 }
 
 
-
 #education-div, #education-div .card{
-    background-color: #519383;
-    color:white;
+    background-color: #0f4c75;
+    color: #f7fbfc;
 }
 
 #education-div .list-group{
     border: none;
 }
 
-#education-div .list-group .list-group-item{
-    background-color: lavender;
-    border: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    font-weight: 500;
-    font-size: 18px;
-}
-
-#education-div .list-group .active{
-    background-color: darkslategrey;
-}
-
 #education-div .school{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 23px;
     font-family: 'Roboto', sans-serif; 
+    color:#d6e6f2;
 }
 
 #education-div .course{
-    font-weight: 500;
     font-size: 16px;
-    font-style: italic;
+    font-weight: 500;
+    background-color: #dbe2ef ;
+    color: #0f4c75;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
 
 #education-div .level{
-    font-weight: 600;
-    font-size: 20px;
+    font-weight:500;
+    font-size: 19px;
 }
 
 #education-div .year{
     font-style: italic;
-}
-
-#education-div .year .award{
-    font-weight: 500;
 }
 
 #education-div .year .to-award{
@@ -96,7 +93,7 @@ body{
 
 
 #projects-div{
-    
+    background-color: #f1f6f9;
 }
 
 #projects-div .project-name{
@@ -107,7 +104,7 @@ body{
 }
 
 #projects-div .card {
-    background-color: white;
+    background-color: #f2f6f5;
     border: none;
     border-radius: 10px;
 }
@@ -118,15 +115,25 @@ body{
     margin-bottom: 5px;
 }
 
-#projects-div .project-image-label{
+#projects-div .bg-web{
+    background-color: #0f4c75;
+    color: white;
+}
 
+#projects-div .project-image-label{
 }
 
 #projects-div .project-description{
-    font-size: 16px;
+    font-size: 17px;
     line-height: 38px;
     font-weight: 500;
-    text-align: justify;
+    text-align: left;
+    text-indent: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#projects-div .project-pills-section{
+    background: lightgray;
 }
 
 #projects-div .github-repository-link{
@@ -148,20 +155,29 @@ body{
 
 
 #skills-div{
+    background-color: #b9bbdf;
+    color: #481380;
 }
 
 #skills-div .language-name{
     font-weight: 700;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #skills-div .language-proficiency{
     font-weight: 400;
     font-size: 18px;
+    font-style: italic;
 }
 
 #footer-div{
-    background-color: #333333;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(149deg, rgba(0,0,0,1) 0%, rgba(24,28,29,1) 11%, rgba(45,52,54,1) 69%);
+    background: -webkit-linear-gradient(149deg, rgba(0,0,0,1) 0%, rgba(24,28,29,1) 11%, rgba(45,52,54,1) 69%);
+    background: linear-gradient(149deg, rgba(0,0,0,1) 0%, rgba(24,28,29,1) 11%, rgba(45,52,54,1) 69%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#2d3436",GradientType=1);
 }
 
 #footer-div a{
