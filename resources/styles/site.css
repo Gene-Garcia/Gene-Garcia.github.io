@@ -96,31 +96,27 @@ body{
     background-color: #f1f6f9;
 }
 
+
 #projects-div .project-name{
     font-weight: 500;
     font-size: 23px;
-    color: black;
+    color:#ffffff;
     font-family: 'Roboto', sans-serif; 
 }
 
-#projects-div .card {
-    background-color: #f2f6f5;
+#projects-div .card-text{
+    line-height:30px;
+    color: #ffffff;
+}
+
+#projects-div .project-toggle .card{
+    background-color: #1b262c;
     border: none;
-    border-radius: 10px;
 }
 
-#projects-div .card .project-tech .badge{
-    font-size: 12px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#projects-div .bg-web{
-    background-color: #0f4c75;
-    color: white;
-}
-
-#projects-div .project-image-label{
+#projects-div .project-toggle .card .details-button{
+    background-color: #fed049;
+    border-color: #fed049;
 }
 
 #projects-div .project-description{
@@ -128,12 +124,7 @@ body{
     line-height: 38px;
     font-weight: 500;
     text-align: left;
-    text-indent: 30px;
     font-family: 'Times New Roman', Times, serif;
-}
-
-#projects-div .project-pills-section{
-    background: lightgray;
 }
 
 #projects-div .github-repository-link{
