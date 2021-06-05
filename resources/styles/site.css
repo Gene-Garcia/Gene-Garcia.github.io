@@ -149,7 +149,8 @@ body{
 
 
 
-#experiences-div{
+#experiences-div .card-title{
+    opacity: 90%;
 }
 
 
