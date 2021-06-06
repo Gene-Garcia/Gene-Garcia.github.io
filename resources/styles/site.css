@@ -122,9 +122,32 @@ body{
 #projects-div .project-description{
     font-size: 17px;
     line-height: 38px;
-    font-weight: 500;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif; 
+}
+
+#projects-div #accordion-group .card{
+    border: none;
+    background-color: #f4f4f4;
+}
+
+#projects-div #accordion-group .card .project-name{
+    color:black;
+    opacity: 85%;
+}
+
+#projects-div #accordion-group .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #47597e;
+}
+
+#projects-div #accordion-group .carousel-indicators .active{
+    width: 13px;
+    height: 13px;
+    margin-top: -2px;
+    background-color: #293b5f;
 }
 
 #projects-div .github-repository-link{
@@ -133,7 +156,7 @@ body{
 }
 
 #projects-div .link-disabled{
-    text-decoration: none;
+    text-decoration: line-through;
     font-weight: 600;
     color: grey;
 }
