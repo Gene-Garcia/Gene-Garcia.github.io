@@ -162,6 +162,54 @@ body{
 }
 
 
+#papers-div{
+    background-color: #47597e;
+}
+
+#papers-div .division-title{
+    color: white;
+}
+
+#papers-div #papers-accordion .accordion-item .accordion-header .header-text{
+    font-weight: 600;
+    font-size: 17px;
+    opacity: 90%;
+    color: #ffffff;
+}
+
+#papers-div .accordion-header .accordion-button{
+    background-color: #5c6e91;
+    border: none;
+}
+
+#papers-div .accordion-body{
+    background-color: #ffffff;
+}
+
+#papers-div .accordion-body .publish-info,
+#papers-div .accordion-body .authors,
+#papers-div .accordion-body .doi{
+    font-weight: 600;
+    opacity: 80%;
+}
+
+#papers-div .accordion-body .abstract-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#papers-div .paper-title{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 80%;
+}
+
+#papers-div .abstract{
+    line-height: 35px;
+}
+
+
+
 
 #experiences-div .card-title{
     opacity: 90%;
