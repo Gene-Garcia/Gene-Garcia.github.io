@@ -13,9 +13,9 @@ window.onscroll = () => {
         $('#nav-div').addClass('projects');
     } else if (yScroll >= 4243 && yScroll < 5841){
         $('#nav-div').addClass('papers');
-    } else if (yScroll >= 5841 && yScroll < 7730){
+    } else if (yScroll >= 5841 && yScroll < 7726){
         $('#nav-div').addClass('experience');
-    } else if (yScroll >= 7730){
+    } else if (yScroll >= 7726){
         $('#nav-div').addClass('skills');
     }
 

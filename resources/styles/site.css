@@ -159,7 +159,9 @@ body{
     color: #00DCDC;
 }
 
-
+#education-div{
+    height: 100vh;
+}
 
 #education-div, #education-div .card{
     background-color: #0f4c75;
@@ -336,6 +338,7 @@ body{
 #skills-div{
     background-color: #b9bbdf;
     color: #481380;
+    height: 100vh;
 }
 
 #skills-div .language-name{
