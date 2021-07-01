@@ -7,15 +7,15 @@ window.onscroll = () => {
     // it will be set back to its default style
     removeNavClasses();
 
-    if (yScroll >= 950 && yScroll < 1903){
+    if (yScroll >= 939 && yScroll < 1916){
         $('#nav-div').addClass("education");
-    } else if (yScroll >= 1903 && yScroll < 4250){
+    } else if (yScroll >= 1916 && yScroll < 4243){
         $('#nav-div').addClass('projects');
-    } else if (yScroll >= 4250 && yScroll < 5841){
+    } else if (yScroll >= 4243 && yScroll < 5841){
         $('#nav-div').addClass('papers');
-    } else if (yScroll >= 5841 && yScroll < 7692){
+    } else if (yScroll >= 5841 && yScroll < 7730){
         $('#nav-div').addClass('experience');
-    } else if (yScroll >= 7692){
+    } else if (yScroll >= 7730){
         $('#nav-div').addClass('skills');
     }
 
