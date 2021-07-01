@@ -163,6 +163,12 @@ body{
     height: 100vh;
 }
 
+@media only screen and (max-width: 991px) {
+    #education-div{
+        height: auto;
+    }
+}
+
 #education-div, #education-div .card{
     background-color: #0f4c75;
     color: #f7fbfc;
