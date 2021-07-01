@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gn-grc.github.io</title>
-
-    <link rel="stylesheet" type="text/css" href="resources/styles/site.css">
+    <title>Gene Garcia</title>
 
     <!-- Icon -->
     <link rel="icon" type="image/png" href="resources/images/me.jpg">
@@ -17,6 +15,8 @@
     <!-- Bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">  
 
+    <link rel="stylesheet" type="text/css" href="resources/styles/site.css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -24,38 +24,51 @@
 <body>
 
     <!-- Navbar division -->
-    <div id="nav-div" class="row mt-4">
+    <div id="nav-div" class="row sticky-top">
 
-        <div class="col-5">
+        <!-- <div class="col-5">
             <div id="" class="s-curved my-auto shadow text-end" 
             style="background: rgb(4,97,159);
             background: linear-gradient(4deg, rgba(4,97,159,1) 0%, rgba(2,60,99,1) 39%, rgb(31, 31, 31) 100%);">       
             </div>
-        </div>
+        </div> -->
 
-        <div class="col-7">
-            <nav class="navbar navbar-expand-md navbar-light pt-4 pb-4 float-end">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-dark float-none  float-md-end ">
                 <div class="container-fluid">
+
                   <a class="navbar-brand fw-bold" href="#">G</a>
+
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
+
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
+
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Introduction</a>
+                        <a class="nav-link active" href="#introduction-div">Introduction</a>
                       </li>
+
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#education-div">Education</a>
                       </li>
+
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#projects-div">Projects</a>
                       </li>
+
                       <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#">Papers</a>
                       </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Experience</a>
+                      </li>
+
                     </ul>
                   </div>
+
                 </div>
             </nav>
         </div>
@@ -63,19 +76,46 @@
     </div>
 
     <!-- Introduction division -->
-    <div id="introduction-div" class="content-division mt-4">
+    <div id="introduction-div" class="content-division d-flex align-items-center">
 
-      <div class="p-md-5 p-3">
-        <div class="m-md-5 m-0">
-          <div class="container">
-            <h2 class="division-title mb-5 mt-md-0 mt-5">Hola! Hello! Kamusta!</h2>
+      <div class="">
 
-            <p class="mt-4 text-start" style="line-height: 45px; font-size: 17px;">
-              I am a sophomore student at Malayan Colleges Laguna. My college major is Bachelor of Science in Information Systems. A study of business processes and how technology-enabled solutions impact organizations. Information systems were my degree of choice because of my interest in different information systems, such as MIS, and its design, development, and implementation. Additionally, my other areas of interest and skills are in web programming and basic research.
-            </p>
+        <h2 class="division-title">
+          Gene Garcia
+        </h2>
+        <p class="underline"></p>
+
+        <div class="mt-4 content">
+
+          <p class="desc">A Junior BS <span class="course">Information Systems</span> student</p>
+
+          <p class="goal">An aspiring <span class="goal-title">Web Developer</span>, <span class="goal-title">Business Analyst</span>, or <span class="goal-title">Data Analyst</span></p>
+
+          <div class="d-flex flex-row text-light mt-4 connect">
+            <a href="https://www.facebook.com/gene.garciaaa/" target="_blank">
+              <span class="bi bi-facebook mx-2"></span>
+            </a>
+
+            <a href="https://www.instagram.com/genegarciaa/" target="_blank">
+              <span class="bi bi-instagram mx-2"></span>
+            </a>
+
+            <a href="https://twitter.com/gene_garciaaa" target="_blank">
+              <span class="bi bi-twitter mx-2"></span>
+            </a>
+
+            <a href="https://github.com/gene-garcia" target="_blank">
+              <span class="bi bi-linkedin mx-2"></span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/gene-garcia-633324171/" target="_blank">
+              <span class="bi bi-github mx-2"></span>
+            </a>
           </div>
         </div>
+
       </div>
+
     </div>
 
     <!-- Education div -->
@@ -1315,6 +1355,10 @@
       function removeShadow(element){
         element.classList.remove("shadow-lg");
       }
+
+      window.onscroll = () => {
+          console.log(window.scrollY);
+      };
 
     </script>
 

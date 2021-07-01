@@ -3,7 +3,14 @@ body{
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-    overflow-x: inherit;
+
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 550px) {
+    body{
+        overflow-x: auto;
+    }
 }
 
 .s-curved{
@@ -19,17 +26,6 @@ body{
     min-width: 550px;
 }
 
-#nav-div{
-    min-width: 550px;
-    margin-right: 0;
-}
-
-.division-title{
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 500;
-    font-size: 25px;
-}
-
 
 .shadow-transition{
     transition: 1s;
@@ -39,9 +35,83 @@ body{
     animation: 5s;
 }
 
+.division-title{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#nav-div{
+    min-width: 550px;
+    margin-right: 0;
+    background-color: #171717;
+}
+
+#nav-div .navbar-brand{
+    color: #BBE1FA;
+}
+
+#nav-div .nav-link {
+    color: white;;
+}
+
+
 
 #introduction-div{
+    background-color: #171717;
+    height: 100vh;
+
+    color: #EDEDED;
+
+    padding-left: 320px;
 }
+
+#introduction-div .division-title{
+    color: #EDEDED;
+    font-size: 60px;
+}
+
+#introduction-div .underline{
+    border-bottom: 2px solid #BBE1FA;
+    border-radius: 20px;
+    width: 200px;
+}
+
+#introduction-div .content{
+    line-height: 40px;
+}
+
+#introduction-div .content .desc{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#introduction-div .content .desc .course{
+    color: #BBE1FA;
+    font-weight: 700;
+    margin: 0 3px;
+}
+
+#introduction-div .content .goal{
+    color: #686D76;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#introduction-div .content .goal .goal-title{
+    color: #BBE1FA;
+}
+
+#introduction-div .content .connect a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#introduction-div .content .connect a:hover{
+    color: #00DCDC;
+}
+
 
 
 #education-div, #education-div .card{
