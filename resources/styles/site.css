@@ -56,14 +56,11 @@ body{
 }
 
 
-
 #introduction-div{
     background-color: #171717;
     height: 100vh;
 
     color: #EDEDED;
-
-    padding-left: 320px;
 }
 
 #introduction-div .division-title{
