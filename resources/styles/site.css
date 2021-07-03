@@ -133,7 +133,7 @@ body{
 }
 /* End introduction division styles */
 
-
+/* Education division styles */
 #education-div{
     height: 100vh;
 }
@@ -191,13 +191,9 @@ body{
 #education-div .achievement .year{
     font-weight: 300;
 }
+/* End education division styles */
 
-
-
-#projects-div{
-    background-color: #f1f6f9;
-}
-
+/* Projects division styles */
 #projects-div .project-name{
     font-weight: 500;
     font-size: 23px;
@@ -205,19 +201,19 @@ body{
     font-family: 'Roboto', sans-serif; 
 }
 
+#projects-div .project-toggle .card{
+    background-color: var(--theme-light);
+    border: none;
+}
+
 #projects-div .card-text{
     line-height:30px;
     color: #ffffff;
 }
 
-#projects-div .project-toggle .card{
-    background-color: #1b262c;
-    border: none;
-}
-
 #projects-div .project-toggle .card .details-button{
-    background-color: #fed049;
-    border-color: #fed049;
+    background-color: var(--accent);
+    border-color: var(--accent);
 }
 
 #projects-div .project-description{
@@ -229,38 +225,62 @@ body{
 
 #projects-div #accordion-group .card{
     border: none;
-    background-color: #f4f4f4;
+    background-color: var(--theme-light);
 }
 
 #projects-div #accordion-group .card .project-name{
-    color:black;
+    color:#fff;
+    font-weight: 600;
+    font-style: 23px;
+    opacity: 90%;
+}
+
+#projects-div #accordion-group .card .developers{
+    color: var(--accent);
     opacity: 85%;
+    font-weight: 600;
+    font-family: var(--font);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#projects-div #accordion-group .card .project-description{
+    color: #fff;
 }
 
 #projects-div #accordion-group .carousel-indicators li{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #47597e;
+    background-color: #FFD369;
 }
 
 #projects-div #accordion-group .carousel-indicators .active{
-    width: 13px;
-    height: 13px;
-    margin-top: -2px;
-    background-color: #293b5f;
+    background-color: var(--accent);
+}
+
+#projects-div .github-repository-img{
+    color: #fff;
+}
+
+#projects-div .github-repository-img.disabled{
+    color: var(--translucent);
+}
+
+#projects-div .github-repository-img .bi{
+    font-size: 25px;
 }
 
 #projects-div .github-repository-link{
     text-decoration: none;
     font-weight: 600;
+    color: var(--accent);
 }
 
-#projects-div .link-disabled{
-    text-decoration: line-through;
-    font-weight: 600;
-    color: grey;
+#projects-div .github-repository-link.disabled{
+    color: var(--translucent);
 }
+/* End Projects division styles */
 
 
 #papers-div{
