@@ -20,10 +20,6 @@ body{
     margin-left: -5px;
 }
 
-.content-division{
-
-}
-
 .shadow-transition{
     transition: 1s;
 }
@@ -51,53 +47,6 @@ body{
 #nav-div .nav-link {
     color: white;
 }
-
-/* dynamic nav colors */
-#nav-div.education{
-    background-color: #0f4c75;
-}
-#nav-div.education .nav-link{
-    color:#d6e6f2;
-}
-
-#nav-div.projects{
-    background-color: #f1f6f9;
-}
-#nav-div.projects .nav-link{
-    color:#171717;
-}
-#nav-div.projects .navbar-brand{
-    color: #1C7293;
-}
-
-#nav-div.papers{
-    background-color: #47597e;
-}
-#nav-div.papers .nav-link{
-    color:white;
-}
-
-#nav-div.experience{
-    background-color: #F7F7F7;
-}
-#nav-div.experience .nav-link{
-    color:black;
-}
-#nav-div.experience .navbar-brand{
-    color: #1C7293;
-}
-
-#nav-div.skills{
-    background-color: #b9bbdf;
-}
-#nav-div.skills .nav-link{
-    color:black;
-}
-#nav-div.skills .navbar-brand{
-    color: #481380;
-}
-
-
 
 
 #introduction-div{
