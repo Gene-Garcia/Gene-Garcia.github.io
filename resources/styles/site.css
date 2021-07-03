@@ -1,16 +1,25 @@
-body{
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+/* Color Palette Variables */
+:root{
+    --translucent: #393E46;
+    --theme: #171717;
+    --theme-light: #222831;
+    --theme-lighter: #393E46;
+    --accent: #FFD369;
+    --highlight: #EEEEEE;
 
+    --accent-font: 'Poppins', sans-serif;
+    --font: 'Roboto', sans-serif;
+}
+/* End Color Palette Variables */
+
+body{
+    background-color: var(--theme);
+    margin:0;
     overflow-x: hidden;
 }
 
 @media only screen and (max-width: 550px) {
-    body{
-        overflow-x: auto;
-    }
+    body{ overflow-x: auto; }
 }
 
 .s-curved{
@@ -35,25 +44,47 @@ body{
 }
 
 #nav-div{
-    background-color: #171717;
+    background-color: var(--theme-light);
 }
 
 #nav-div .navbar-brand{
-    color: #BBE1FA;
+    position: relative;
+    text-align: center;
+}
+
+#nav-div .navbar-brand .brand-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: var(--accent);
+    font-family: var(--accent-font);
     font-weight: 700;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 #nav-div .nav-link {
-    color: white;
+    color: var(--highlight);
+    font-size: 14px;
+    font-weight: 500;
+
+    padding: 12px;
+}
+
+#nav-div .nav-link:hover{
+    background-color: var(--highlight);
+    color: var(--theme-lighter);
+}
+
+#nav-div .nav-link.active{
+    background-color: var(--theme-lighter);
+    color: var(--highlight);
 }
 
 
 #introduction-div{
-    background-color: #171717;
     height: 100vh;
-
-    color: #EDEDED;
 }
 
 #introduction-div .division-title{
