@@ -43,6 +43,7 @@ body{
     font-size: 25px;
 }
 
+/* Navbar styles */
 #nav-div{
     background-color: var(--theme-light);
 }
@@ -81,52 +82,42 @@ body{
     background-color: var(--theme-lighter);
     color: var(--highlight);
 }
-
+/* End navbar styles */
 
 #introduction-div{
     height: 100vh;
 }
 
 #introduction-div .division-title{
-    color: #EDEDED;
+    color: #fff;
     font-size: 60px;
+    margin-bottom: 0;
+
 }
 
 #introduction-div .underline{
-    border-bottom: 2px solid #BBE1FA;
+    border-bottom: 2px solid #fff;
     border-radius: 20px;
-    width: 200px;
+    width: 380px;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 768px) {
-    #introduction-div .underline{
-        width: 100%;
-    }
+    #introduction-div .underline{ width: 100%; }
 }
 
 #introduction-div .content{
     line-height: 40px;
 }
 
-#introduction-div .content .desc{
+#introduction-div .content .description{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 21px;
+    color: var(--translucent);
 }
 
-#introduction-div .content .desc .course{
-    color: #BBE1FA;
-    font-weight: 700;
-    margin: 0 3px;
-}
-
-#introduction-div .content .goal{
-    color: #686D76;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-#introduction-div .content .goal .goal-title{
-    color: #BBE1FA;
+#introduction-div .content .description .emphasized{
+    color: var(--accent);
 }
 
 #introduction-div .content .connect a{
@@ -136,7 +127,7 @@ body{
 }
 
 #introduction-div .content .connect a:hover{
-    color: #00DCDC;
+    color: var(--accent);
 }
 
 #education-div{
