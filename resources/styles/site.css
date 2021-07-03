@@ -38,9 +38,10 @@ body{
 }
 
 .division-title{
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 500;
+    font-family: var(--font); 
+    font-weight: 700;
     font-size: 25px;
+    color: var(--accent);
 }
 
 /* Navbar styles */
@@ -84,6 +85,7 @@ body{
 }
 /* End navbar styles */
 
+/* Introduction division styles */
 #introduction-div{
     height: 100vh;
 }
@@ -129,48 +131,52 @@ body{
 #introduction-div .content .connect a:hover{
     color: var(--accent);
 }
+/* End introduction division styles */
+
 
 #education-div{
     height: 100vh;
 }
 
-@media only screen and (max-width: 991px) {
-    #education-div{
-        height: auto;
-    }
+@media only screen and (max-width: 1200px) {
+    #education-div{ height: auto; }
 }
 
 #education-div, #education-div .card{
-    background-color: #0f4c75;
-    color: #f7fbfc;
-}
-
-#education-div .list-group{
-    border: none;
+    background-color: inherit;
 }
 
 #education-div .school{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 23px;
-    font-family: 'Roboto', sans-serif; 
-    color:#d6e6f2;
-}
-
-#education-div .course{
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #dbe2ef ;
-    color: #0f4c75;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    font-family: var(--font); 
+    color:#fff;
+    opacity: 95%;
+    margin-bottom: 30px;
 }
 
 #education-div .level{
     font-weight:500;
     font-size: 19px;
+    color: #fff;
+    opacity: 90%;
+    font-style: 20px;
+}
+
+#education-div .course{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#education-div .additional-info{
+    color: #fff;
+    font-style: italic;
+    font-style: 18px;
+}
+
+#education-div hr{
+    color: var(--accent);
 }
 
 #education-div .year{
