@@ -341,6 +341,7 @@ body{
 }
 /* End Papers division styles */
 
+/* Awards and experiences division styles */
 #experiences-div{
     height: 100vh;
 }
@@ -379,32 +380,14 @@ body{
     color: var(--accent);
     font-weight: 700;
 }
+/* End wards and experiences division styles */
 
-#skills-div{
-    background-color: #b9bbdf;
-    color: #481380;
+#tech-stack-div{
     height: 100vh;
 }
 
-#skills-div .language-name{
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#skills-div .language-proficiency{
-    font-weight: 400;
-    font-size: 18px;
-    font-style: italic;
-}
 
 #footer-div{
-    /* background: rgb(0,0,0);
-    background: -moz-linear-gradient(149deg, rgba(0,0,0,1) 0%, rgba(24,28,29,1) 11%, rgba(45,52,54,1) 69%);
-    background: -webkit-linear-gradient(149deg, rgba(0,0,0,1) 0%, rgba(24,28,29,1) 11%, rgba(45,52,54,1) 69%);
-    background: linear-gradient(149deg, rgba(0,0,0,1) 0%, rgba(24,28,29,1) 11%, rgba(45,52,54,1) 69%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#2d3436",GradientType=1); */
     background-color: #393e46;
 }
 
@@ -429,7 +412,7 @@ body{
 }
 
 #footer-div .footer-title{
-    color:#94FFFF;
+    color:var(--accent);
     font-weight: 600;
     font-size: 25px;
     opacity: 90%;
@@ -446,7 +429,7 @@ body{
 }
 
 #footer-div a:hover{
-    color: #00DCDC;
+    color: var(--accent);
 }
 
 

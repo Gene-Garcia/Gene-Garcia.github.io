@@ -27,7 +27,7 @@ window.onscroll = () => {
         $('#nav-div .nav-link.experiences').addClass('active');
     } else if (yScroll >= 6167){
         removeNavClasses();
-        $('#nav-div .nav-link.skills').addClass('active');
+        $('#nav-div .nav-link.tech-stack').addClass('active');
     }
 
 };
