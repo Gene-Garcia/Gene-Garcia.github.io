@@ -1,6 +1,8 @@
 window.onscroll = () => {
     var yScroll = window.scrollY;
 
+    console.log(yScroll);
+
     // bug
     // on smaller screen, y scroll proximity also must change
 
@@ -16,16 +18,16 @@ window.onscroll = () => {
     } else if (yScroll >= 939 && yScroll < 1900){
         removeNavClasses();
         $('#nav-div .nav-link.education').addClass("active");
-    } else if (yScroll >= 1900 && yScroll < 3600){
+    } else if (yScroll >= 1900 && yScroll < 3039){
         removeNavClasses();
         $('#nav-div .nav-link.projects').addClass('active');
-    } else if (yScroll >= 3600 && yScroll < 4967){
+    } else if (yScroll >= 3039 && yScroll < 4677){
         removeNavClasses();
         $('#nav-div .nav-link.papers').addClass('active');
-    } else if (yScroll >= 4967 && yScroll < 6167){
+    } else if (yScroll >= 4677 && yScroll < 5535){
         removeNavClasses();
         $('#nav-div .nav-link.experiences').addClass('active');
-    } else if (yScroll >= 6167){
+    } else if (yScroll >= 5535){
         removeNavClasses();
         $('#nav-div .nav-link.tech-stack').addClass('active');
     }
