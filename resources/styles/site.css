@@ -382,6 +382,7 @@ body{
 }
 /* End wards and experiences division styles */
 
+/* Technology stack division styles */
 #tech-stack-div{
     height: 100vh;
 }
@@ -392,9 +393,11 @@ body{
     font-size: 19px;
     opacity: 90%;
 }
+/* End Technology stack division styles */
+
 
 #footer-div{
-    background-color: #393e46;
+    background-color: var(--theme-light);
 }
 
 #footer-div .bi{
@@ -440,7 +443,7 @@ body{
 
 
 #footer-highlight-div{
-    background-color: #222831;
+    background-color: var(--theme);
 }
 
 #footer-highlight-div .footer-credits{
