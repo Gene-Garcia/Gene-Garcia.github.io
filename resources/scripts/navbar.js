@@ -1,7 +1,6 @@
 window.onscroll = () => {
     var yScroll = window.scrollY;
 
-    console.log(yScroll);
 
     // bug
     // on smaller screen, y scroll proximity also must change
