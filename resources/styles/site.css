@@ -388,6 +388,10 @@ body{
     height: 100vh;
 }
 
+@media only screen and (max-width: 970px) {
+    #tech-stack-div{ height: auto; }
+}
+
 #tech-stack-div .platform-container .platform-name{
     color: white;
     font-weight: 600;
