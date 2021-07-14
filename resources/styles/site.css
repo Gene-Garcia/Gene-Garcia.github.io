@@ -390,8 +390,9 @@ body{
 #tech-stack-div .platform-container .platform-name{
     color: white;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 20px;
     opacity: 90%;
+    margin-bottom: 10px;
 }
 
 #tech-stack-div .platform-container .card {
