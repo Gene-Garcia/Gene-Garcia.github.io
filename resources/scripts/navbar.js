@@ -18,13 +18,13 @@ window.onscroll = () => {
     } else if (yScroll >= 939 && yScroll < 1900){
         removeNavClasses();
         $('#nav-div .nav-link.education').addClass("active");
-    } else if (yScroll >= 1900 && yScroll < 3039){
+    } else if (yScroll >= 1900 && yScroll < 3000){
         removeNavClasses();
         $('#nav-div .nav-link.projects').addClass('active');
-    } else if (yScroll >= 3039 && yScroll < 4677){
+    } else if (yScroll >= 300 && yScroll < 4700){
         removeNavClasses();
         $('#nav-div .nav-link.papers').addClass('active');
-    } else if (yScroll >= 4677 && yScroll < 5535){
+    } else if (yScroll >= 4700 && yScroll < 5535){
         removeNavClasses();
         $('#nav-div .nav-link.experiences').addClass('active');
     } else if (yScroll >= 5535){
