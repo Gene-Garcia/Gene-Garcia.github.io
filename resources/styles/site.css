@@ -286,8 +286,7 @@ body{
 /* Papers division styles */
 #papers-div .body-container .paper-container .card{
     background-color: var(--theme-light);
-    color: #fff; //
-
+    color: #fff; 
 }
 
 #papers-div .paper-title{
@@ -333,6 +332,8 @@ body{
     border-color: var(--accent);
     color: var(--accent);
     font-weight: 600;
+    margin-bottom: 7px;
+
 }
 
 #papers-div .paper-type.btn:hover{
