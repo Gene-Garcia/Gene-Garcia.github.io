@@ -128,7 +128,7 @@
   <div id="education-div" class="content-division">
     <div class="p-md-5 p-3">
       <div class="m-md-5 m-0">
-        <div class="container">
+        <div class="container my-auto">
           <h2 class="division-title mb-5 mt-md-0 mt-5">Educational Background</h2>
 
           <div class="row rounded row-cols-1 row-cols-lg-2 g-4">
@@ -1546,12 +1546,12 @@
   </div>
 
   <!-- Abstract Modal -->
-  <div class="modal fade" id="abstractModal" tabindex="-1" aria-labelledby="abstractModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal fade rounded-3" id="abstractModal" tabindex="-1" aria-labelledby="abstractModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable ">
       <div class="modal-content">
 
         <div class="modal-header">
-          <h5 class="modal-title" id="abstractModalLabel">Modal title</h5>
+          <h5 class="modal-title me-1" id="abstractModalLabel">Modal title</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 
@@ -1574,6 +1574,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <script>
+    $('#accordion').on('show.bs.collapse', '.collapse', () => {
+      $('#accordion').find('.collapse.show').collapse('hide');
+    });
+
     function addShadow(element) {
       element.classList.add("shadow-transition");
       element.classList.add("shadow-lg");

@@ -46,7 +46,7 @@ body{
 
 /* Navbar styles */
 #nav-div{
-    background-color: var(--theme-light);
+    background-color: none;
 }
 
 #nav-div .navbar-brand{
@@ -292,13 +292,12 @@ body{
 #papers-div .paper-title{
     font-size: 21px;
     font-weight: 700;
-    opacity: 90%;
 }
 
 #papers-div .publish-info, 
 #papers-div .authors,
 #papers-div .doi .doi-title{
-    opacity: 80%;
+    opacity: 90%;
     font-weight: 600;
 }
 
@@ -320,6 +319,7 @@ body{
 #papers-div .abstract .see-more{
     color: var(--accent);
     font-weight: 700;
+    text-decoration: none;
 }
 
 #papers-div .abstract .see-more:hover{
@@ -340,6 +340,32 @@ body{
     background-color: var(--accent);
     color: var(--theme-light);
 }
+
+/* modal style */
+
+.modal .modal-content {
+    background-color: var(--theme-light);
+}
+
+#abstractModal {
+    color: #fff;
+}
+
+#abstractModal .modal-body{
+    line-height: 35px;
+    /* font-family: var(--font); */
+    font-weight: 500;
+}
+
+#abstractModal .modal-header .modal-title{
+    font-weight: 700;
+    color: var(--accent);
+}
+
+#abstractModal .btn-close {
+    background-color: var(--accent);
+}
+
 /* End Papers division styles */
 
 /* Awards and experiences division styles */
