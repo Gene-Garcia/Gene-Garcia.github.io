@@ -87,7 +87,7 @@ body{
 
 /* Introduction division styles */
 #introduction-div{
-    height: 100vh;
+    height: 90vh;
 }
 
 #introduction-div .division-title{
@@ -133,13 +133,6 @@ body{
 /* End introduction division styles */
 
 /* Education division styles */
-#education-div{
-    height: 100vh;
-}
-
-@media only screen and (max-width: 1200px) {
-    #education-div{ height: auto; }
-}
 
 #education-div, #education-div .card{
     background-color: inherit;
@@ -410,13 +403,6 @@ body{
 /* End wards and experiences division styles */
 
 /* Technology stack division styles */
-#tech-stack-div{
-    height: 100vh;
-}
-
-@media only screen and (max-width: 970px) {
-    #tech-stack-div{ height: auto; }
-}
 
 #tech-stack-div .platform-container .platform-name{
     color: white;
