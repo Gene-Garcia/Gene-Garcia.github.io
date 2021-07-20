@@ -1,0 +1,44 @@
+#introduction-div{
+    height: 90vh;
+}
+
+#introduction-div .division-title{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#introduction-div .underline{
+    border-bottom: 2px solid #fff;
+    border-radius: 20px;
+    width: 380px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #introduction-div .underline{ width: 100%; }
+}
+
+#introduction-div .content{
+    line-height: 40px;
+}
+
+#introduction-div .content .description{
+    font-weight: 500;
+    font-size: 21px;
+    color: #5B5B5B;
+}
+
+#introduction-div .content .description .emphasized{
+    color: var(--accent);
+}
+
+#introduction-div .content .connect a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#introduction-div .content .connect a:hover{
+    color: var(--accent);
+}

@@ -1,0 +1,57 @@
+#footer-div{
+    background-color: var(--theme-light);
+}
+
+#footer-div .bi{
+    font-size: 28px;
+    opacity: 95%;
+}
+
+#footer-div .address-level-1{
+    font-weight: 500;
+}
+
+#footer-div .address-level-2{
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 95%;
+}
+
+#footer-div .email{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#footer-div .footer-title{
+    color:var(--accent);
+    font-weight: 600;
+    font-size: 25px;
+    opacity: 90%;
+}
+
+#footer-div .footer-desc{
+    color:white;
+    font-size: 16px;
+}
+
+#footer-div a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-div a:hover{
+    color: var(--accent);
+}
+
+
+#footer-highlight-div{
+    background-color: var(--theme);
+}
+
+#footer-highlight-div .footer-credits{
+    font-size: 11px;
+    font-weight: 500;
+    font-family: sans-serif;
+    opacity: 60%;
+    letter-spacing: 3px;
+}

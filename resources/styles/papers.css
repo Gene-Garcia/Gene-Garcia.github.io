@@ -1,0 +1,81 @@
+#papers-div .body-container .paper-container .card{
+    background-color: var(--theme-light);
+    color: #fff; 
+}
+
+#papers-div .paper-title{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#papers-div .publish-info, 
+#papers-div .authors,
+#papers-div .doi .doi-title{
+    opacity: 90%;
+    font-weight: 600;
+}
+
+#papers-div .paper-info .doi a{
+    color: var(--accent);
+    font-weight: 600;
+}
+
+#papers-div .abstract-title{
+    opacity: 50%;
+    font-weight: 600;
+}
+
+#papers-div .abstract{
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#papers-div .abstract .see-more{
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#papers-div .abstract .see-more:hover{
+    color: var(--highlight);
+    text-decoration: underline var(--accent) 3px;
+}
+
+#papers-div .paper-type.btn{
+    background-color: var(--theme-light);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 7px;
+
+}
+
+#papers-div .paper-type.btn:hover{
+    background-color: var(--accent);
+    color: var(--theme-light);
+}
+
+/* modal style */
+
+.modal .modal-content {
+    background-color: var(--theme-light);
+}
+
+#abstractModal {
+    color: #fff;
+}
+
+#abstractModal .modal-body{
+    line-height: 35px;
+    /* font-family: var(--font); */
+    font-weight: 500;
+}
+
+#abstractModal .modal-header .modal-title{
+    font-weight: 700;
+    color: var(--accent);
+}
+
+#abstractModal .btn-close {
+    background-color: var(--accent);
+}

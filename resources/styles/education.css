@@ -1,0 +1,50 @@
+
+#education-div, #education-div .card{
+    background-color: inherit;
+}
+
+#education-div .school{
+    font-weight: 600;
+    font-size: 23px;
+    font-family: var(--font); 
+    color:#fff;
+    opacity: 95%;
+    margin-bottom: 30px;
+}
+
+#education-div .level{
+    font-weight:500;
+    font-size: 19px;
+    color: #fff;
+    opacity: 90%;
+    font-style: 20px;
+}
+
+#education-div .course{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#education-div .additional-info{
+    color: #fff;
+    font-style: italic;
+    font-style: 18px;
+}
+
+#education-div hr{
+    color: var(--accent);
+}
+
+#education-div .year{
+    font-style: italic;
+}
+
+#education-div .year .to-award{
+    font-weight: 500;
+    color: darkgrey;
+}
+
+#education-div .achievement .year{
+    font-weight: 300;
+}
