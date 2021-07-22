@@ -10,16 +10,25 @@
     border: none;
 }
 
-#projects-div .card-text{
-    display: none;/*  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-
-    line-height:30px;
-    color: #ffffff;
+#projects-div .project-toggle .project-summary{
+    color: #fff;
+    font-family: var(--font);
+    opacity: 90%;
 }
 
 #projects-div .project-toggle .card .details-button{
+    font-family: var(--accent-font);
+    font-size: 14px;
+
+    background-color: var(--theme-light);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+#projects-div .project-toggle .card .details-button:hover{
     background-color: var(--accent);
     border-color: var(--accent);
+    color: var(--theme-light);
 }
 
 #projects-div .project-description{
