@@ -4,8 +4,9 @@
 }
 
 #papers-div .paper-title{
+    font-family: var(--accent-font);
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #papers-div .publish-info, 
@@ -63,19 +64,28 @@
 
 #abstractModal {
     color: #fff;
+    
 }
 
 #abstractModal .modal-body{
     line-height: 35px;
     /* font-family: var(--font); */
-    font-weight: 500;
+    font-weight: 400;
+    opacity: 90%;
+    font-family: var(--font);
 }
 
 #abstractModal .modal-header .modal-title{
     font-weight: 700;
-    color: var(--accent);
+    color: #fff;
+    font-family: var(--accent-font);
 }
 
-#abstractModal .btn-close {
-    background-color: var(--accent);
+#abstractModal .close-modal .bi {
+    color: var(--accent);
+    font-size: 20px;
+}
+
+#abstractModal .close-modal .bi:hover {
+    color: var(--highlight);
 }
