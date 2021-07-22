@@ -9,7 +9,7 @@
     font-family: var(--font); 
     color:#fff;
     opacity: 95%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #education-div .level{
@@ -21,9 +21,10 @@
 }
 
 #education-div .course{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
-    color: #fff;
+    color: var(--accent);
+    opacity: 90%;
 }
 
 #education-div .additional-info{
@@ -32,8 +33,10 @@
     font-style: 18px;
 }
 
-#education-div hr{
-    color: var(--accent);
+#education-div .line{
+    border-bottom: var(--accent) solid 2px;
+    margin: 15px 0px 15px 0px;
+    opacity: 90%;
 }
 
 #education-div .year{
