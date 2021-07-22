@@ -1,3 +1,8 @@
+/* Selector */
+::selection{
+    background: rgb(255, 211, 105, .5);
+}
+
 /* Color Palette Variables */
 :root{
     --translucent: #393E46;
