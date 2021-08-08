@@ -1,21 +1,25 @@
-
-#tech-stack-div .platform-container .platform-name{
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
-    opacity: 90%;
-    margin-bottom: 10px;
+#tech-stack-div .platform-container .platform-name {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 90%;
+  margin-bottom: 10px;
 }
 
 #tech-stack-div .platform-container .card {
-    background: inherit;
+  background: inherit;
 }
 
-#tech-stack-div .platform-container .card .programming-image{
-    margin: 5px;
+#tech-stack-div .platform-container .card .programming-image {
+  margin: 5px;
 }
 
-#tech-stack-div .platform-container .card .programming-image.constrast{
-    background-color: var(--highlight);
-    border-radius: 10px;
+#tech-stack-div .platform-container .card .programming-image.constrast {
+  background-color: var(--theme-lighter);
+  border-radius: 10px;
+}
+
+#tech-stack-div .platform-container .card .programming-image.constrast-strong {
+  background-color: var(--highlight);
+  border-radius: 10px;
 }
