@@ -1,97 +1,97 @@
-#projects-div .project-name{
-    font-weight: 500;
-    font-size: 23px;
-    color:#ffffff;
-    font-family: 'Roboto', sans-serif; 
+#projects-div .project-name {
+  font-weight: 500;
+  font-size: 23px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
-#projects-div .project-toggle .card{
-    background-color: var(--theme-light);
-    border: none;
+#projects-div .project-toggle .card {
+  background-color: var(--theme-light);
+  border: none;
 }
 
-#projects-div .project-toggle .project-summary{
-    color: #fff;
-    font-family: var(--font);
-    opacity: 90%;
+#projects-div .project-toggle .project-summary {
+  color: #fff;
+  font-family: var(--font);
+  opacity: 90%;
 }
 
-#projects-div .project-toggle .card .details-button{
-    font-family: var(--accent-font);
-    font-size: 14px;
+#projects-div .project-toggle .card .details-button {
+  font-family: var(--accent-font);
+  font-size: 14px;
 
-    background-color: var(--theme-light);
-    border-color: var(--accent);
-    color: var(--accent);
+  background-color: var(--theme-light);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-#projects-div .project-toggle .card .details-button:hover{
-    background-color: var(--accent);
-    border-color: var(--accent);
-    color: var(--theme-light);
+#projects-div .project-toggle .card .details-button:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--theme-light);
 }
 
-#projects-div .project-description{
-    font-size: 17px;
-    line-height: 38px;
-    text-align: left;
-    font-family: 'Roboto', sans-serif; 
+#projects-div .project-description {
+  font-size: 17px;
+  line-height: 38px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
 }
 
-#projects-div #accordion-group .card{
-    border: none;
-    background-color: var(--theme-light);
+#projects-div #accordion-group .card {
+  border: none;
+  background-color: var(--theme-light);
 }
 
-#projects-div #accordion-group .card .project-name{
-    color:#fff;
-    font-weight: 600;
-    font-style: 23px;
-    opacity: 90%;
+#projects-div #accordion-group .card .project-name {
+  color: #fff;
+  font-weight: 600;
+  font-style: 23px;
+  opacity: 90%;
 }
 
-#projects-div #accordion-group .card .developers{
-    color: var(--accent);
-    opacity: 85%;
-    font-weight: 600;
-    font-family: var(--font);
-    font-size: 14px;
-    margin-top: 10px;
+#projects-div #accordion-group .card .developers {
+  color: var(--accent);
+  opacity: 85%;
+  font-weight: 600;
+  font-family: var(--font);
+  font-size: 14px;
+  margin-top: 10px;
 }
 
-#projects-div #accordion-group .card .project-description{
-    color: #fff;
+#projects-div #accordion-group .card .project-description {
+  color: #fff;
 }
 
-#projects-div #accordion-group .carousel-indicators li{
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: #FFD369;
+#projects-div #accordion-group .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ffd369;
 }
 
-#projects-div #accordion-group .carousel-indicators .active{
-    background-color: var(--accent);
+#projects-div #accordion-group .carousel-indicators .active {
+  background-color: var(--accent);
 }
 
-#projects-div .github-repository-img{
-    color: #fff;
+#projects-div .github-repository-img {
+  color: #fff;
 }
 
-#projects-div .github-repository-img.disabled{
-    color: var(--translucent);
+#projects-div .github-repository-img.disabled {
+  color: var(--translucent);
 }
 
-#projects-div .github-repository-img .bi{
-    font-size: 25px;
+#projects-div .github-repository-img .bi {
+  font-size: 25px;
 }
 
-#projects-div .github-repository-link{
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--accent);
+#projects-div .github-repository-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent);
 }
 
-#projects-div .github-repository-link.disabled{
-    color: var(--translucent);
+#projects-div .github-repository-link.disabled {
+  color: var(--translucent);
 }

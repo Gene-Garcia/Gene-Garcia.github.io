@@ -1,38 +1,34 @@
-#experiences-div{
-    height: 100vh;
+#experiences-div .carousel .text-content {
+  color: white;
 }
 
-#experiences-div .carousel .text-content{
-    color: white;
+#experiences-div .carousel .text-content .event-name {
+  font-size: 23px;
+  font-weight: 600;
+  opacity: 90%;
 }
 
-#experiences-div .carousel .text-content .event-name{
-    font-size: 23px;
-    font-weight: 600;
-    opacity: 90%;
+#experiences-div .carousel .text-content .certificate-desc {
+  font-size: 15px;
+  line-height: 35px;
 }
 
-#experiences-div .carousel .text-content .certificate-desc{
-    font-size: 15px;
-    line-height: 35px;
+#experiences-div .carousel .text-content .event-date {
+  font-size: 14px;
+  font-style: italic;
+  opacity: 90%;
+  font-weight: 400;
 }
 
-#experiences-div .carousel .text-content .event-date{
-    font-size: 14px;
-    font-style: italic;
-    opacity: 90%;
-    font-weight: 400;
+#experiences-div .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ffd369;
 }
 
-#experiences-div .carousel-indicators li{
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: #FFD369;
-}
-
-#experiences-div .carousel .control-arrow .bi{
-    font-size: 30px;
-    color: var(--accent);
-    font-weight: 700;
+#experiences-div .carousel .control-arrow .bi {
+  font-size: 30px;
+  color: var(--accent);
+  font-weight: 700;
 }

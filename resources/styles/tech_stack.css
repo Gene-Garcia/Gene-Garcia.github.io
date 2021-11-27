@@ -1,3 +1,13 @@
+#tech-stack-div {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 991px) {
+  #tech-stack-div {
+    height: auto;
+  }
+}
+
 #tech-stack-div .platform-container .platform-name {
   color: white;
   font-weight: 600;
@@ -14,12 +24,12 @@
   margin: 5px;
 }
 
-#tech-stack-div .platform-container .card .programming-image.constrast {
+#tech-stack-div .platform-container .card .programming-image.contrast {
   background-color: var(--theme-lighter);
   border-radius: 10px;
 }
 
-#tech-stack-div .platform-container .card .programming-image.constrast-strong {
+#tech-stack-div .platform-container .card .programming-image.contrast-strong {
   background-color: var(--highlight);
   border-radius: 10px;
 }

@@ -1,53 +1,63 @@
-
-#education-div, #education-div .card{
-    background-color: inherit;
+#education-div {
+  height: 90vh;
 }
 
-#education-div .school{
-    font-weight: 600;
-    font-size: 23px;
-    font-family: var(--font); 
-    color:#fff;
-    opacity: 95%;
-    margin-bottom: 20px;
+@media only screen and (max-width: 1199px) {
+  #education-div {
+    height: auto;
+  }
 }
 
-#education-div .level{
-    font-weight:500;
-    font-size: 19px;
-    color: #fff;
-    opacity: 90%;
-    font-style: 20px;
+#education-div,
+#education-div .card {
+  background-color: inherit;
 }
 
-#education-div .course{
-    font-size: 17px;
-    font-weight: 500;
-    color: var(--accent);
-    opacity: 90%;
+#education-div .school {
+  font-weight: 600;
+  font-size: 23px;
+  font-family: var(--font);
+  color: #fff;
+  opacity: 95%;
+  margin-bottom: 20px;
 }
 
-#education-div .additional-info{
-    color: #fff;
-    font-style: italic;
-    font-style: 18px;
+#education-div .level {
+  font-weight: 500;
+  font-size: 19px;
+  color: #fff;
+  opacity: 90%;
+  font-style: 20px;
 }
 
-#education-div .line{
-    border-bottom: var(--accent) solid 2px;
-    margin: 15px 0px 15px 0px;
-    opacity: 90%;
+#education-div .course {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--accent);
+  opacity: 90%;
 }
 
-#education-div .year{
-    font-style: italic;
+#education-div .additional-info {
+  color: #fff;
+  font-style: italic;
+  font-style: 18px;
 }
 
-#education-div .year .to-award{
-    font-weight: 500;
-    color: darkgrey;
+#education-div .line {
+  border-bottom: var(--accent) solid 2px;
+  margin: 15px 0px 15px 0px;
+  opacity: 90%;
 }
 
-#education-div .achievement .year{
-    font-weight: 300;
+#education-div .year {
+  font-style: italic;
+}
+
+#education-div .year .to-award {
+  font-weight: 500;
+  color: darkgrey;
+}
+
+#education-div .achievement .year {
+  font-weight: 300;
 }

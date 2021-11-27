@@ -1,91 +1,101 @@
-#papers-div .body-container .paper-container .card{
-    background-color: var(--theme-light);
-    color: #fff; 
+#papers-div .body-container .paper-container .card {
+  background-color: var(--theme-light);
+  color: #fff;
 }
 
-#papers-div .paper-title{
-    font-family: var(--accent-font);
-    font-size: 21px;
-    font-weight: 600;
+#papers-div .paper-title {
+  font-family: var(--accent-font);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
-#papers-div .publish-info, 
+#papers-div .paper-info {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#papers-div .paper-info p {
+  margin-bottom: 4px;
+}
+
+#papers-div .publish-info,
 #papers-div .authors,
-#papers-div .doi .doi-title{
-    opacity: 90%;
-    font-weight: 600;
+#papers-div .doi .doi-title {
+  opacity: 90%;
+  font-weight: 600;
 }
 
-#papers-div .paper-info .doi a{
-    color: var(--accent);
-    font-weight: 600;
+#papers-div .paper-info .doi a {
+  color: var(--accent);
+  font-weight: 600;
 }
 
-#papers-div .abstract-title{
-    opacity: 50%;
-    font-weight: 600;
+#papers-div .abstract-title {
+  opacity: 50%;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
-#papers-div .abstract{
-    font-weight: 500;
-    line-height: 30px;
+#papers-div .abstract {
+  font-weight: 500;
+  line-height: 30px;
 }
 
-#papers-div .abstract .see-more{
-    color: var(--accent);
-    font-weight: 700;
-    text-decoration: none;
+#papers-div .abstract .see-more {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
 }
 
-#papers-div .abstract .see-more:hover{
-    color: var(--highlight);
-    text-decoration: underline var(--accent) 3px;
+#papers-div .abstract .see-more:hover {
+  color: var(--highlight);
+  text-decoration: underline var(--accent) 3px;
 }
 
-#papers-div .paper-type.btn{
-    background-color: var(--theme-light);
-    border-color: var(--accent);
-    color: var(--accent);
-    font-weight: 600;
-    margin-bottom: 7px;
-
+#papers-div .paper-type.btn {
+  background-color: var(--theme-light);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 7px;
 }
 
-#papers-div .paper-type.btn:hover{
-    background-color: var(--accent);
-    color: var(--theme-light);
+#papers-div .paper-type.btn:hover {
+  background-color: var(--accent);
+  color: var(--theme-light);
 }
 
 /* modal style */
 
 .modal .modal-content {
-    background-color: var(--theme-light);
+  background-color: var(--theme-light);
 }
 
 #abstractModal {
-    color: #fff;
-    
+  color: #fff;
 }
 
-#abstractModal .modal-body{
-    line-height: 35px;
-    /* font-family: var(--font); */
-    font-weight: 400;
-    opacity: 90%;
-    font-family: var(--font);
+#abstractModal .modal-body {
+  line-height: 33px;
+  /* font-family: var(--font); */
+  color: #f4f4f4;
+  font-weight: 500;
+  font-family: sans-serif;
 }
 
-#abstractModal .modal-header .modal-title{
-    font-weight: 700;
-    color: #fff;
-    font-family: var(--accent-font);
+#abstractModal .modal-header .modal-title {
+  font-weight: 600;
+  color: #f4f4f4;
+  font-family: var(--accent-font);
+  font-size: 18px;
 }
 
 #abstractModal .close-modal .bi {
-    color: var(--accent);
-    font-size: 20px;
+  color: var(--accent);
+  font-size: 20px;
 }
 
 #abstractModal .close-modal .bi:hover {
-    color: var(--highlight);
+  color: var(--highlight);
 }
